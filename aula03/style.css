@@ -1,0 +1,141 @@
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font: Poppins;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #C4DAD2;
+    margin: 0;
+    padding: 1rem;
+}
+
+header {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    background-color: #fff;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    width: 20rem;
+    margin: 5rem auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 0.625rem;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 0.625rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.25rem 0 0 0.25rem;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.625rem;
+    background-color: #8967B3;
+    color: #fff;
+    border: none;
+    border-radius: 0 0.25rem 0.25rem 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #6C48C5;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 0.625rem;
+    margin-bottom: 0.3125rem;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+}
+
+li span {
+    flex: 1;
+    margin-left: 0.625rem;
+    font-size: 1rem;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+li button {
+    background-color: #dc3545;
+    margin-left: 0.625rem;
+    font-size: 0.875rem;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.625rem;
+}
